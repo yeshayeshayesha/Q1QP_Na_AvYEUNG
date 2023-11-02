@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans:wght@300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Newsreader:opsz,wght@6..72,200&family=Open+Sans:wght@300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Kanit&family=Open+Sans:wght@300&family=Quicksand:wght@300&display=swap');*{margin: 0px; padding: ;}
+
+/**PAGE ONE LETS GOO. this is for the home page**/
+.navbar1{/*navigation*/
+    background-color: #C1121F;
+    padding: 40px;
+    
+}
+.links1{
+    float: right;
+}
+
+
+.links1 a{
+    color:#003049;
+    margin: 8px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.links1 a:hover{transition: .75; color: black;}/*emphasize the word ure clicking on. to change color*/
+
+.image{  /*body background starts here*/
+    background-image: url(images/what.png);
+    height: 84vh;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    background-size:cover
+}
+
+.yesha{ /*body content*/
+    padding-top: 2vh; 
+    font-size: 58px;
+}
+
+.yesha h1{/*HEADER STARTS HERE*/
+    color: #003049 ;
+    padding-left: 10vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: block;
+
+}
+
+
+.footer1{ /*footer*/
+    background-color: #C1121F;
+    padding: 15px;
+  
+    
+}
+
+.footer1 p{ /*footer copyright*/
+    padding: 15px;
+    color: white;
+    padding-top: 15px;
+    background-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    
+}
+
+.links101{/*footer icon*/
+    float: right;
+    padding-right: 20px;
+
+}
+
+.links101 a img{/*footer sizing*/
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**THIS IS FOR DATA PAGE. PAGE 2**/
+.navbar2{ /*navbar*/
+    background-color:#F4A9D8;
+    padding: 40px;
+    
+}
+.links2{/*to indicate where it lies on the page. the links*/
+    float: right;
+}
+
+.links2 a{/*to decor the link tabs so its not uglky*/
+    color: #8D1A43;
+    margin: 8px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.links2 a:hover{transition: .75; color: rgb(229, 81, 106);}/*emhpazise*/
+
+.maincontent{ /*body*/
+    background-image: url(images/oppa2.png);
+    height: 84vh;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    background-size: cover;
+}
+
+.maincontent h1{ /*header*/
+    color: #8D1A43;
+    padding-top: 2vh; 
+    margin-left: 5vw;
+    font-size: 39px;
+}
+
+.maincontent .box{/*top layer of links*/
+    border: 1px solid #8D1A43;
+    display: inline-block;
+    margin: 20px;
+    height: 25vh;
+    width: 25vw;
+    text-align: center;
+}
+
+#boxes{/*to make it neat*/
+    padding-top: 20px;
+}
+
+.maincontent .box2{/*bottomlayer of links :((*/
+    border: 1px solid #8D1A43;
+    height: 25vh;
+    width: 25vw;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+   
+    
+}
+
+/**DECOR AREA**/
+.maincontent .box a{/
+    color: #8D1A43;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: -40%;
+    font-size: larger;
+   
+
+
+}
+
+.maincontent .box2 a{
+    color:#8D1A43;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: -40%;
+    font-size: larger;
+
+}
+
+/**EMPHASEIZE*/
+.maincontent .box a:hover {transition: .35s; color: rgb(229, 81, 106);}
+.maincontent .box2 a:hover {transition: .35s; color: rgb(229, 81, 106);}
+
+
+.footer2{ /*footer*/
+    background-color: #F4A9D8;
+    padding: 15px;
+  
+    
+}
+
+.footer2 p{
+    padding: 15px;
+    color: white;
+    padding-top: 15px;
+    background-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    
+}
+
+
+
+
+
+
+
+
+/**creator's page AKAK MY PAGE HAHAHHAHAHAHA*/
+#navbar4{/*navigation*/
+    background-color: #669BBC;
+    padding: 40px;
+    
+}
+
+.links4{ /*links*/
+    float: right;
+}
+
+
+.links4 a{
+    color:#003049;
+    margin: 8px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.links4 a:hover{transition: 0.75s; color: white;
+}
+
+#mainbod{/*bodybackground*/
+
+    background-image: linear-gradient(#669BBC,#669BBC, rgb(0, 0, 0));
+    height: 84vh;
+    display: flex;
+}
+
+#mainbod .left h1{/*left side of the page*/
+    color: #003049;
+    font-size: 7vw;
+    margin-left: 5vw;
+    padding-top: 5vh;
+}
+
+#mainbod .left p{
+    padding-left: 8vw;
+    padding-top: 2vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 55vw;
+    text-align: justify;
+    font-size: medium;
+}
+
+.right img{/*START OF RIGHT SIDE*/
+    width: 23vw;
+    float: right;
+  
+}
+
+.footer4{
+    background-color: #669BBC;
+    padding: 15px;
+
+}
+
+.footer4 p{
+    padding: 15px;
+    color: white;
+    padding-top: 15px;
+    background-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+   
+    
+}
+
+
+
+
+
+
+
+/**PAGE NUMBER 3 FINALLY**/
+.navbar22{/*nav*/
+    background-color: #79B68A;
+    padding: 40px;
+    
+}
+.links22{/*links uptop*/
+    float: right;
+}
+
+.links22 a{
+    color: #003049;
+    margin: 8px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.links22 a:hover{transition: 0.45s; color:rgb(8, 249, 8);}
+
+.maincon{/*BODY OF PAGE 3*/
+    height: 84vh;
+    background-image: url(images/jfhghjdh.png);
+    background-repeat: no-repeat;
+    bottom: 0px;
+    background-size:cover
+}
+
+.maincon h1{/*head*/
+    padding-left: 8vw;
+    padding-top: 8vh;
+    color: #003049;
+    font-family: 'Candal', sans-serif;
+    font-size: 58px;
+}
+
+.maincon p{/*PARAGROHAPH*/
+    padding-left: 10vw;
+    width: 50%;
+    color: #003049;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    font-size: small;
+    padding-top: 2vh;
+   
+}
+
+.footer3{ /*footer*/
+    background-color:#79B68A; 
+    padding:15px ;
+}
+
+.footer3 p{
+    padding: 15px;
+    color: white;
+    padding-top: 15px;
+    background-size: 100%;
+    font-family: 'Open Sans', sans-serif;  
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+/**START OF DATA SUB PAGES**/
+/*CONCLUSION PAGE*/
+
+#tunga{/*FOR ALL SUB PAGES HERE IS THE TUNGA OR BODY AREA BASIS*/
+    background-image: linear-gradient(#F4A9D8,#F4A9D8,#F4A9D8, #F4A9D8,black) ;
+    height: 90vh;
+}
+
+#tunga h1{/*FOR ALL SUB PAGES HERE IS THE TUNGA HEADER OR BODY AREA HEADER BASIS*/
+    color: #8D1A43;
+    padding-top: 2vh; 
+    margin-left: 5vw;
+    font-size: 50px;
+}
+
+#tunga p{/*short paragprah to explin graphs*/
+    margin: 9px;
+    margin-left: 50px;
+    width: 85%;
+    font-size: small;
+
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    color: #8D1A43;
+    font-weight: bold;
+}
+
+/*PAGE FOR CONCLUSION*/
+.boex/*box for deisgn bc its boring opage*/
+{
+    border: 1px solid #8D1A43;
+    margin: 15px;
+}
+
+#bigboex{/*to highlight all conclusion. so cool*/
+    border: 1px solid #8D1A43;
+    margin: 15px;
+}
+
+
+/**for genre pie chart in page 2, data's genre budget**/
+#genreset{/*adjust the height and width to layout better*/
+    height: 30vh;
+    width: 35vw;
+    margin: 30px;
+    border: 5px solid #8D1A43;
+
+}
+
+#tophalf1{/*for the graphs to be nice and layed on top. INDICATE OF START OF THIS*/
+    display: flex;
+}
+
+#tophalf1 p{
+    margin-top: 6vh;
+    margin-right: 5vw;
+    font-size: small;
+    font-weight: bold;
+    
+}
+
+#budgetset{/*budget graph*/
+    height: 30vh;
+    width: 35vw;
+    margin-left: 30px;
+    border: 5px solid #8D1A43;
+
+}
+
+#bottomhalf1{/*layered bottom half to decorate. STATRT OF DECORATION BOTTOMHALF*/
+    display: flex; 
+}
+
+#bottomhalf1 p{
+    margin-right: 5vw;
+    font-size: small;
+    font-weight: bold;
+}
+
+#grossset{/*gross gsales graph*/
+    height: 30vh;
+    width: 35vw;
+    margin-left: 30px;
+    border: 5px solid #8D1A43;
+}
+
+
+
+
+
+
+
+
+
+
+/**lastpage huhu finally najud. reference page*/
+#tunga li{
+    /*to list down references*/
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-right: 10px;
+    color: #8D1A43;
+}
+
+.lastdiv{/*to make boxes so clean looking*/
+    /*hehe green is so cute*/
+    border: 2px solid #8D1A43;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.lastdiv a{/*to click on links organized maner*/
+    text-decoration: none;
+    color: #8D1A43;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    
+    
+}
